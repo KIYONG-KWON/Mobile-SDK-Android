@@ -8,8 +8,8 @@ repositories {
 }
 
 android {
-    compileSdkVersion 30
-    buildToolsVersion '30.0.3'
+    compileSdkVersion 29
+    buildToolsVersion '29.0.3'
     useLibrary 'org.apache.http.legacy'
 
     defaultConfig {
