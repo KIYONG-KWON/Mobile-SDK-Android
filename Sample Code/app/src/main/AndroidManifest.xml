@@ -17,6 +17,7 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />  <!-- 추가 권한 부여 부분 -->
     <uses-feature
         android:name="android.hardware.usb.host"
         android:required="false"/>
@@ -44,7 +45,7 @@
         <!-- personal key -->
         <meta-data
             android:name="com.dji.sdk.API_KEY"
-            android:value="Please enter your App key here."/>
+            android:value="a3d6c871d29021e2bfcf4fe0"/>
         <!-- Required for receiving accessory attachment events.
             This is necessary for product when connecting over USB. -->
 
